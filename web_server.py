@@ -1,8 +1,23 @@
 from flask import Flask, render_template, request
 from flask_socketio import SocketIO, send, emit
 from datetime import datetime
+from flask import session, redirect
 
 import logging
+
+import psycopg2
+import os
+
+conn = psycopg2.connect(os.environ["DATABASE_URL"])
+cursor = conn.cursor()
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(100) UNIQUE,
+    password VARCHAR(100)
+)
+""")
+conn.commit()
 
 logging.basicConfig(
     level=logging.INFO,
@@ -14,9 +29,49 @@ socketio = SocketIO(app)
 
 users = {}  # {session_id: username}
 
+app.secret_key = "supersecret"
 @app.route("/")
 def index():
+    if "user" not in session:
+        return redirect("/login")
     return render_template("chat.html")
+
+@app.route("/signup", methods=["GET", "POST"])
+def signup():
+    if request.method == "POST":
+        username = request.form["username"]
+        password = request.form["password"]
+
+        try:
+            cursor.execute(
+                "INSERT INTO users (username, password) VALUES (%s, %s)",
+                (username, password)
+            )
+            conn.commit()
+        except:
+            return "User already exists!"
+
+        return redirect("/login")
+
+    return render_template("signup.html")
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        username = request.form["username"]
+        password = request.form["password"]
+
+        cursor.execute(
+            "SELECT * FROM users WHERE username=%s AND password=%s",
+            (username, password)
+        )
+        user = cursor.fetchone()
+
+        if user:
+            session["user"] = username
+            return redirect("/")
+
+    return render_template("login.html")
 
 # USER JOIN
 @socketio.on("join")
@@ -50,6 +105,11 @@ def handle_message(data):
     }, broadcast=True)
     logging.info(f"{username}: {message}")
 
+@app.route("/logout")
+def logout():
+    session.pop("user", None)
+    return redirect("/login")
+
 # USER DISCONNECT
 @socketio.on("disconnect")
 def handle_disconnect():
@@ -69,4 +129,4 @@ def handle_disconnect():
         logging.info(f"{username} left the chat")
 
 if __name__ == "__main__":
-    socketio.run(app, port=5000)
+    socketio.run(app, host="0.0.0.0", port=5000)
