@@ -34,9 +34,9 @@ users = {}  # {session_id: username}
 app.secret_key = "supersecret"
 @app.route("/")
 def index():
-    if "user" not in session:
-        return redirect("/login")
-    return render_template("chat.html")
+    if "user" in session:
+        return render_template("chat.html")
+    return redirect("/login")
 
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
