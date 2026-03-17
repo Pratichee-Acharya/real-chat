@@ -1,0 +1,89 @@
+2026-03-17 20:37:21,602 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-17 20:37:21,603 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-17 20:37:45,156 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:45] "GET / HTTP/1.1" 200 -
+2026-03-17 20:37:45,278 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:45] "GET /socket.io/?EIO=4&transport=polling&t=PpyLgxi HTTP/1.1" 200 -
+2026-03-17 20:37:45,355 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:45] "[36mGET /static/bg2.jpg HTTP/1.1[0m" 304 -
+2026-03-17 20:37:49,691 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:49] "POST /socket.io/?EIO=4&transport=polling&t=PpyLi0r&sid=MqI5Uwbh-a5emXuIAAAA HTTP/1.1" 200 -
+2026-03-17 20:37:49,695 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:49] "GET /socket.io/?EIO=4&transport=polling&t=PpyLi0s&sid=MqI5Uwbh-a5emXuIAAAA HTTP/1.1" 200 -
+2026-03-17 20:37:49,876 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:49] "GET /socket.io/?EIO=4&transport=polling&t=PpyLi3n&sid=MqI5Uwbh-a5emXuIAAAA HTTP/1.1" 200 -
+2026-03-17 20:37:49,922 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:49] "GET /socket.io/?EIO=4&transport=polling&t=PpyLi4V&sid=MqI5Uwbh-a5emXuIAAAA HTTP/1.1" 200 -
+2026-03-17 20:37:49,968 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-17 20:37:56,703 | INFO | 127.0.0.1 - - [17/Mar/2026 20:37:56] "GET /socket.io/?EIO=4&transport=polling&t=PpyLjkF HTTP/1.1" 200 -
+2026-03-17 20:38:00,254 | INFO | 127.0.0.1 - - [17/Mar/2026 20:38:00] "POST /socket.io/?EIO=4&transport=polling&t=PpyLkbp&sid=F6v36M0Lf77f4KvOAAAC HTTP/1.1" 200 -
+2026-03-17 20:38:00,262 | INFO | 127.0.0.1 - - [17/Mar/2026 20:38:00] "GET /socket.io/?EIO=4&transport=polling&t=PpyLkbr&sid=F6v36M0Lf77f4KvOAAAC HTTP/1.1" 200 -
+2026-03-17 20:38:00,324 | INFO | 127.0.0.1 - - [17/Mar/2026 20:38:00] "GET /socket.io/?EIO=4&transport=polling&t=PpyLkd1&sid=F6v36M0Lf77f4KvOAAAC HTTP/1.1" 200 -
+2026-03-17 20:38:00,370 | INFO | 127.0.0.1 - - [17/Mar/2026 20:38:00] "GET /socket.io/?EIO=4&transport=polling&t=PpyLkdl&sid=F6v36M0Lf77f4KvOAAAC HTTP/1.1" 200 -
+2026-03-17 20:39:27,576 | INFO | 127.0.0.1 - - [17/Mar/2026 20:39:27] "GET /socket.io/?EIO=4&transport=polling&t=PpyM3w9 HTTP/1.1" 200 -
+2026-03-17 20:39:30,863 | INFO | 127.0.0.1 - - [17/Mar/2026 20:39:30] "POST /socket.io/?EIO=4&transport=polling&t=PpyM4je&sid=MTwa6wz15uErgtVqAAAE HTTP/1.1" 200 -
+2026-03-17 20:39:30,871 | INFO | 127.0.0.1 - - [17/Mar/2026 20:39:30] "GET /socket.io/?EIO=4&transport=polling&t=PpyM4jf&sid=MTwa6wz15uErgtVqAAAE HTTP/1.1" 200 -
+2026-03-17 20:39:30,940 | INFO | 127.0.0.1 - - [17/Mar/2026 20:39:30] "GET /socket.io/?EIO=4&transport=polling&t=PpyM4ku&sid=MTwa6wz15uErgtVqAAAE HTTP/1.1" 200 -
+2026-03-17 20:39:30,983 | INFO | 127.0.0.1 - - [17/Mar/2026 20:39:30] "GET /socket.io/?EIO=4&transport=polling&t=PpyM4lb&sid=MTwa6wz15uErgtVqAAAE HTTP/1.1" 200 -
+2026-03-17 20:41:46,255 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-17 20:41:46,255 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-17 20:41:46,472 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbT3 HTTP/1.1" 200 -
+2026-03-17 20:41:46,473 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbT4 HTTP/1.1" 200 -
+2026-03-17 20:41:46,478 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbT3 HTTP/1.1" 200 -
+2026-03-17 20:41:46,484 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "POST /socket.io/?EIO=4&transport=polling&t=PpyMbqm&sid=0jMVerJnOLcUSGt-AAAA HTTP/1.1" 200 -
+2026-03-17 20:41:46,489 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbqn&sid=0jMVerJnOLcUSGt-AAAA HTTP/1.1" 200 -
+2026-03-17 20:41:46,495 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "POST /socket.io/?EIO=4&transport=polling&t=PpyMbqo&sid=UVkpqG5XOrYHQ9rUAAAB HTTP/1.1" 200 -
+2026-03-17 20:41:46,495 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbqq&sid=UVkpqG5XOrYHQ9rUAAAB HTTP/1.1" 200 -
+2026-03-17 20:41:46,497 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "POST /socket.io/?EIO=4&transport=polling&t=PpyMbqr&sid=wdZb2Pq_nK1W8urYAAAC HTTP/1.1" 200 -
+2026-03-17 20:41:46,501 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbqs&sid=wdZb2Pq_nK1W8urYAAAC HTTP/1.1" 200 -
+2026-03-17 20:41:46,510 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbr7&sid=0jMVerJnOLcUSGt-AAAA HTTP/1.1" 200 -
+2026-03-17 20:41:46,511 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbrB&sid=UVkpqG5XOrYHQ9rUAAAB HTTP/1.1" 200 -
+2026-03-17 20:41:46,519 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbrK&sid=UVkpqG5XOrYHQ9rUAAAB HTTP/1.1" 200 -
+2026-03-17 20:41:46,528 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:46] "GET /socket.io/?EIO=4&transport=polling&t=PpyMbrC&sid=wdZb2Pq_nK1W8urYAAAC HTTP/1.1" 200 -
+2026-03-17 20:41:53,093 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:53] "GET / HTTP/1.1" 200 -
+2026-03-17 20:41:53,161 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:53] "GET /socket.io/?EIO=4&transport=polling&t=PpyMdT6 HTTP/1.1" 200 -
+2026-03-17 20:41:53,374 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:53] "[36mGET /static/bg2.jpg HTTP/1.1[0m" 304 -
+2026-03-17 20:41:57,118 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:57] "POST /socket.io/?EIO=4&transport=polling&t=PpyMeQn&sid=qjCIIBxZiFXsDIYPAAAG HTTP/1.1" 200 -
+2026-03-17 20:41:57,121 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:57] "GET /socket.io/?EIO=4&transport=polling&t=PpyMeQp&sid=qjCIIBxZiFXsDIYPAAAG HTTP/1.1" 200 -
+2026-03-17 20:41:57,281 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:57] "GET /socket.io/?EIO=4&transport=polling&t=PpyMeTU&sid=qjCIIBxZiFXsDIYPAAAG HTTP/1.1" 200 -
+2026-03-17 20:41:57,315 | INFO | 127.0.0.1 - - [17/Mar/2026 20:41:57] "GET /socket.io/?EIO=4&transport=polling&t=PpyMeU0&sid=qjCIIBxZiFXsDIYPAAAG HTTP/1.1" 200 -
+2026-03-17 20:42:56,515 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:56] "GET /socket.io/?EIO=4&transport=websocket&sid=qjCIIBxZiFXsDIYPAAAG HTTP/1.1" 200 -
+2026-03-17 20:42:56,528 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:56] "GET / HTTP/1.1" 200 -
+2026-03-17 20:42:56,590 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:56] "GET /socket.io/?EIO=4&transport=polling&t=PpyMsy7 HTTP/1.1" 200 -
+2026-03-17 20:42:56,594 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:56] "[36mGET /static/bg2.jpg HTTP/1.1[0m" 304 -
+2026-03-17 20:42:58,992 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:58] "POST /socket.io/?EIO=4&transport=polling&t=PpyMtXe&sid=VoFjJ_3V6VnF1qFxAAAI HTTP/1.1" 200 -
+2026-03-17 20:42:59,001 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:59] "GET /socket.io/?EIO=4&transport=polling&t=PpyMtXg&sid=VoFjJ_3V6VnF1qFxAAAI HTTP/1.1" 200 -
+2026-03-17 20:42:59,066 | INFO | 127.0.0.1 - - [17/Mar/2026 20:42:59] "GET /socket.io/?EIO=4&transport=polling&t=PpyMtYn&sid=VoFjJ_3V6VnF1qFxAAAI HTTP/1.1" 200 -
+2026-03-17 20:43:14,385 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-17 20:43:14,386 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-17 20:43:14,966 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:14] "GET /socket.io/?EIO=4&transport=polling&t=PpyMxRJ HTTP/1.1" 200 -
+2026-03-17 20:43:14,976 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:14] "POST /socket.io/?EIO=4&transport=polling&t=PpyMxRQ&sid=mIFLScF8ID3jsuS4AAAA HTTP/1.1" 200 -
+2026-03-17 20:43:14,981 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:14] "GET /socket.io/?EIO=4&transport=polling&t=PpyMxRT&sid=mIFLScF8ID3jsuS4AAAA HTTP/1.1" 200 -
+2026-03-17 20:43:15,967 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:15] "GET /socket.io/?EIO=4&transport=polling&t=PpyMxgy HTTP/1.1" 200 -
+2026-03-17 20:43:15,977 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:15] "POST /socket.io/?EIO=4&transport=polling&t=PpyMxh2&sid=j6DDmrMd8Ne6kQBeAAAC HTTP/1.1" 200 -
+2026-03-17 20:43:15,981 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:15] "GET /socket.io/?EIO=4&transport=polling&t=PpyMxh5&sid=j6DDmrMd8Ne6kQBeAAAC HTTP/1.1" 200 -
+2026-03-17 20:43:19,971 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:19] "GET /socket.io/?EIO=4&transport=polling&t=PpyMyfR HTTP/1.1" 200 -
+2026-03-17 20:43:19,979 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:19] "POST /socket.io/?EIO=4&transport=polling&t=PpyMyfc&sid=qqkBsnhMwGp4-e8LAAAE HTTP/1.1" 200 -
+2026-03-17 20:43:19,983 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:19] "GET /socket.io/?EIO=4&transport=polling&t=PpyMyfe&sid=qqkBsnhMwGp4-e8LAAAE HTTP/1.1" 200 -
+2026-03-17 20:43:20,934 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:20] "GET / HTTP/1.1" 200 -
+2026-03-17 20:43:21,003 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:21] "GET /socket.io/?EIO=4&transport=polling&t=PpyMyve HTTP/1.1" 200 -
+2026-03-17 20:43:21,210 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:21] "[36mGET /static/bg2.jpg HTTP/1.1[0m" 304 -
+2026-03-17 20:43:23,849 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:23] "POST /socket.io/?EIO=4&transport=polling&t=PpyMzb-&sid=XccraG7WtMzyP7J9AAAG HTTP/1.1" 200 -
+2026-03-17 20:43:23,853 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:23] "GET /socket.io/?EIO=4&transport=polling&t=PpyMzc1&sid=XccraG7WtMzyP7J9AAAG HTTP/1.1" 200 -
+2026-03-17 20:43:23,872 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:23] "GET /socket.io/?EIO=4&transport=polling&t=PpyMzcS&sid=XccraG7WtMzyP7J9AAAG HTTP/1.1" 200 -
+2026-03-17 20:43:24,010 | INFO | 127.0.0.1 - - [17/Mar/2026 20:43:24] "GET /socket.io/?EIO=4&transport=polling&t=PpyMzeY&sid=XccraG7WtMzyP7J9AAAG HTTP/1.1" 200 -
+2026-03-17 20:44:47,880 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:47] "GET /socket.io/?EIO=4&transport=polling&t=PpyNI6m HTTP/1.1" 200 -
+2026-03-17 20:44:49,804 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:49] "POST /socket.io/?EIO=4&transport=polling&t=PpyNIb0&sid=_Ac8dGMkyTvS09urAAAI HTTP/1.1" 200 -
+2026-03-17 20:44:49,808 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:49] "GET /socket.io/?EIO=4&transport=polling&t=PpyNIb2&sid=_Ac8dGMkyTvS09urAAAI HTTP/1.1" 200 -
+2026-03-17 20:44:49,863 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:49] "POST /socket.io/?EIO=4&transport=polling&t=PpyNIc3&sid=_Ac8dGMkyTvS09urAAAI HTTP/1.1" 200 -
+2026-03-17 20:44:49,865 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:49] "GET /socket.io/?EIO=4&transport=polling&t=PpyNIc3.0&sid=_Ac8dGMkyTvS09urAAAI HTTP/1.1" 200 -
+2026-03-17 20:44:49,910 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:49] "GET /socket.io/?EIO=4&transport=polling&t=PpyNIcm&sid=_Ac8dGMkyTvS09urAAAI HTTP/1.1" 200 -
+2026-03-17 20:44:55,574 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:55] "GET /socket.io/?EIO=4&transport=websocket&sid=_Ac8dGMkyTvS09urAAAI HTTP/1.1" 200 -
+2026-03-17 20:44:55,583 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:55] "GET /socket.io/?EIO=4&transport=websocket&sid=j6DDmrMd8Ne6kQBeAAAC HTTP/1.1" 200 -
+2026-03-17 20:44:55,588 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:55] "GET /socket.io/?EIO=4&transport=websocket&sid=XccraG7WtMzyP7J9AAAG HTTP/1.1" 200 -
+2026-03-17 20:44:55,591 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:55] "GET /socket.io/?EIO=4&transport=websocket&sid=qqkBsnhMwGp4-e8LAAAE HTTP/1.1" 200 -
+2026-03-17 20:44:55,593 | INFO | 127.0.0.1 - - [17/Mar/2026 20:44:55] "GET /socket.io/?EIO=4&transport=websocket&sid=mIFLScF8ID3jsuS4AAAA HTTP/1.1" 200 -
+2026-03-17 20:58:41,263 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:41] "GET / HTTP/1.1" 200 -
+2026-03-17 20:58:41,372 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:41] "GET /socket.io/?EIO=4&transport=polling&t=PpyQTcP HTTP/1.1" 200 -
+2026-03-17 20:58:41,375 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:41] "[36mGET /static/bg2.jpg HTTP/1.1[0m" 304 -
+2026-03-17 20:58:43,775 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:43] "POST /socket.io/?EIO=4&transport=polling&t=PpyQUBs&sid=eovvy-HQnUVg0sxeAAAK HTTP/1.1" 200 -
+2026-03-17 20:58:43,780 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:43] "GET /socket.io/?EIO=4&transport=polling&t=PpyQUBu&sid=eovvy-HQnUVg0sxeAAAK HTTP/1.1" 200 -
+2026-03-17 20:58:44,010 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:44] "GET /socket.io/?EIO=4&transport=polling&t=PpyQUFd&sid=eovvy-HQnUVg0sxeAAAK HTTP/1.1" 200 -
+2026-03-17 20:58:44,117 | INFO | 127.0.0.1 - - [17/Mar/2026 20:58:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-17 21:52:36,381 | INFO | 127.0.0.1 - - [17/Mar/2026 21:52:36] "GET /socket.io/?EIO=4&transport=websocket&sid=eovvy-HQnUVg0sxeAAAK HTTP/1.1" 200 -
