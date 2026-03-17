@@ -77,12 +77,16 @@ def login():
 
 # USER JOIN
 @socketio.on("join")
-def handle_join(username):
+def handle_join():
+    username = session.get("user")
+
+    if not username:
+        return
+
     users[request.sid] = username
 
-    print("Users:", users)  # debug
-
     time = datetime.now().strftime("%H:%M:%S")
+
     send({
         "user": "System",
         "msg": f"{username} joined the chat",

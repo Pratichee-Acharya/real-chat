@@ -145,11 +145,7 @@ margin: 5px 0;
 
 var socket = io()
 
-var username = prompt("Enter your name ")
-
-if(username){
-    socket.emit("join", username)
-}
+socket.emit("join")
 
 socket.on("message", function(data){
 
