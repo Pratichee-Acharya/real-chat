@@ -99,8 +99,11 @@ def handle_join():
 # MESSAGE EVENT
 @socketio.on("message")
 def handle_message(data):
-    username = data["user"]
-    message = data["msg"]
+    username = session.get("user") 
+    message = data.get("msg")     
+
+    if not username or not message:
+        return
 
     time = datetime.now().strftime("%H:%M:%S")
 
@@ -109,6 +112,7 @@ def handle_message(data):
         "msg": message,
         "time": time
     }, broadcast=True)
+
     logging.info(f"{username}: {message}")
 
 @app.route("/logout")
