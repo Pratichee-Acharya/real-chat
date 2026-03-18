@@ -33,7 +33,6 @@ def index():
     return redirect("/login")
 
 @app.route("/signup", methods=["GET", "POST"])
-@app.route("/signup", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
         username = request.form["username"]
