@@ -12,13 +12,7 @@ import os
 
 conn = psycopg2.connect(os.environ["DATABASE_URL"])
 cursor = conn.cursor()
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS users (
-    id SERIAL PRIMARY KEY,
-    username VARCHAR(100) UNIQUE,
-    password VARCHAR(100)
-)
-""")
+
 conn.commit()
 
 logging.basicConfig(
@@ -39,6 +33,7 @@ def index():
     return redirect("/login")
 
 @app.route("/signup", methods=["GET", "POST"])
+@app.route("/signup", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
         username = request.form["username"]
@@ -50,7 +45,8 @@ def signup():
                 (username, password)
             )
             conn.commit()
-        except:
+        except Exception as e:
+            conn.rollback() 
             return "User already exists!"
 
         return redirect("/login")
@@ -58,20 +54,27 @@ def signup():
     return render_template("signup.html")
 
 @app.route("/login", methods=["GET", "POST"])
+@app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
         username = request.form["username"]
         password = request.form["password"]
 
-        cursor.execute(
-            "SELECT * FROM users WHERE username=%s AND password=%s",
-            (username, password)
-        )
-        user = cursor.fetchone()
+        try:
+            cursor.execute(
+                "SELECT * FROM users WHERE username=%s AND password=%s",
+                (username, password)
+            )
+            user = cursor.fetchone()
+        except Exception as e:
+            conn.rollback()  # 🔥 reset if broken
+            return "Database error"
 
         if user:
             session["user"] = username
             return redirect("/")
+
+        return "Invalid credentials"
 
     return render_template("login.html")
 
