@@ -199,9 +199,7 @@ function sendMessage() {
 }
 
 function exitChat(){
-    socket.disconnect();
-    alert("You left the chat ");
-    location.reload();
+    window.location.href = "/logout"
 }
 
 function handleKey(event){
